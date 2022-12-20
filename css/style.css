@@ -1,5 +1,10 @@
+:root{
+    --primary-text-color:#434455;
+    --title-text-color:#2E2F42;
+}
+
 .body{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     color:#434455;
     background-color:#FFFFFF;
 }
@@ -109,11 +114,22 @@ background: white;
     color: #FFFFFF;
 }
 .main-btn { 
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,18;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+.main-btn:hover,
+.header-link:focus{
+    background-color: #404BBF;;
 }
 .main-list {
     color: #434455;

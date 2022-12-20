@@ -1,3 +1,7 @@
+:root{
+    --primary-color-text :#2E2F42;
+    --scond-color-text : #434455;
+}
 .body { 
     background:#FFFFFF;;
     font-family:'Roboto';

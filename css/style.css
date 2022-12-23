@@ -27,7 +27,7 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-logo-web);
+    color: var(--color-logo-web-btn);
 }
 .link-logo {
     font-family: 'Raleway';

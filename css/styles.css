@@ -8,6 +8,7 @@
     --color-after-titet-footer:#E7E9FC;
     
 }
+/*--------------Homework 2--------------------*/
 .body { 
     background: var(--color-white-ffff);;
     font-family:'Roboto';
@@ -167,3 +168,4 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-after-titet-footer);
 }
+/*------------------------------------------Homework 3----------------------------*/

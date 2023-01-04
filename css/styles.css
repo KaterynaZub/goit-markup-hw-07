@@ -34,7 +34,7 @@ img{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
+
 }
 /*--------------Homework 2--------------------*/
 .body { 
@@ -46,6 +46,12 @@ img{
 /*---------header------*/
 .header {
     background: var(--color-white-ffff);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.header>.container{
+    display: flex;
 }
 .web{
     font-family: 'Raleway';
@@ -65,12 +71,16 @@ img{
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: var(--primary-color-text);
+    margin-right: 76px;
 }
 .header-navigation {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primary-color-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color-text);
+    align-items: center;
+    display: flex;
+    margin-right: auto;
 }
 .header-list {
     font-weight: 700;
@@ -78,6 +88,10 @@ color: var(--primary-color-text);
     line-height: 1.5;
     color:var(--title-text-color);
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 40px;
 }
 
 .header-item {
@@ -126,7 +140,18 @@ color: var(--primary-color-text);
 /*----------------main----------*/
 .main-content{
     background: var(--color-white-ffff);
+    padding-top: 96px;
+    
 }
+.main-hero{ 
+
+}
+.list-btn{
+    display: flex;
+    gap: 24px; 
+    margin-left: 300px;
+}
+
 .main-btn{
  font-family: 'Roboto';
 font-style: normal;
@@ -136,40 +161,60 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--color-logo-web-btn);
 cursor: pointer;
+padding: 12px 24px 12px 24px;
+border: transparent;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
+
+
 .main-btn:hover,
 .main-btn:focus{
     color:var(--color-white-ffff);
     background-color: var(--color-hover-focus);
-}
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 
-.main-title-first {
+}
+.images{
+    padding-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+.images:nth-child(n + 4){
+    margin-top: 40px;
+}
+.main-title{
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-color-text);
+padding-top: 32px;
+margin-bottom: 8px;
+padding-left: 16px;
 }
 .after-title {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--scond-color-text);
+padding-left: 16px;
+padding-bottom: 32px;
 }
-.main-title-second {
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--primary-color-text);
+.card{
+    border: 1px solid #E7E9FC;
+    border-top: transparent
+    
 }
-.main-title {
-    font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--primary-color-text);
-}
+
 /*---------footer-------*/
 .footer{
    background:  var(--primary-color-text);
+   padding-top: 120px;
+   padding-bottom: 100px;
+   padding-left: 156px;
 }
 .web-footer{
     font-family: 'Raleway';
@@ -180,6 +225,7 @@ color: var(--primary-color-text);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo-web-btn);
+    padding-bottom: 16px;
 }
 .link-logo-footer {
     font-family: 'Raleway';
@@ -195,5 +241,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-after-titet-footer);
+box-sizing: border-box;
+width: 264px;
 }
 /*------------------------------------------Homework 3----------------------------*/

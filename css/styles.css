@@ -8,6 +8,34 @@
     --color-after-titet-footer:#E7E9FC;
     
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+ul,
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 /*--------------Homework 2--------------------*/
 .body { 
     background: var(--color-white-ffff);;

@@ -24,14 +24,17 @@ ol{
     margin: 0;
     padding: 0;
 }
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .container{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
-.flex{
-    display: flex;
+    
 }
 
 .body{
@@ -41,6 +44,11 @@ ol{
 }
 /*---------------------Header-----------------*/
 .header { background-color:var(--color-white-ffff);
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.header >.container{
+    display: flex;
 }
 
 .web{
@@ -61,6 +69,7 @@ ol{
     line-height: 1.33;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    margin-right: 76px;
 }
 .header-link {
    
@@ -80,6 +89,9 @@ ol{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    align-items: center;
+    display: flex;
+    margin-right: auto;
     
 }
 .list {
@@ -94,6 +106,11 @@ ol{
     line-height: 1.5;
     color:var(--title-text-color);
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 40px;
+    
 }
     
 .header-item { 
@@ -102,6 +119,7 @@ ol{
     line-height: 1.33;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+
 }
 .header-mail {
 
@@ -131,10 +149,15 @@ ol{
 /*-----------------------------Main---------------*/
 .main-content-section1{
     background: var(--title-text-color);
+    text-align: center;
+    
+
 }
 .main-content-section2{ 
 background: var(--color-white-ffff);
+
 }
+
 .main-content-section3{
     background:  var(--color-logo-footer-text-title);
 
@@ -145,8 +168,18 @@ background: var(--color-white-ffff);
 .main-title-first { 
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     color: var(--color-white-ffff);
+    align-items: center;
+    text-align: center;
+    max-width: 492px;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+   
+   
 }
 .main-btn { 
 font-family: 'Roboto';
@@ -160,7 +193,11 @@ color: var(--color-white-ffff);
 background: var(--color-logo-web-btn);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+border: transparent;
 cursor: pointer;
+padding: 16px 32px 16px 32px;
+margin-bottom: 188px;
+
 
 }
 .main-btn:hover,
@@ -169,26 +206,42 @@ cursor: pointer;
 }
 .main-list {
     color: var(--primary-text-color);
+    display: flex;
+    padding-top: 72px;
+    gap: 24px;
+    padding-bottom: 120px;
+
 }
 .main-item {
+box-sizing: border-box;
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 color: var(--primary-text-color);
+align-items: center;
+padding-top: 120px;
+margin-right: auto;
+margin-left: auto;
 }
 .main-text{
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
-
+max-width: 264px;
+padding-bottom: 120px;
+gap: 24px;
 }
+
 .main-second-title{
 font-weight: 600;
 font-size: 36px;
 line-height: 1,11;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
+text-align: center;
+
+
 }
 .main-third-title {
 font-weight: 700;
@@ -196,6 +249,10 @@ font-size: 36px;
 line-height: 1,11;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
+text-align: center;
+padding-top: 120px;
+padding-bottom: 72px;
+gap: 24px;
 }
 .main-title {
 font-weight: 500;
@@ -203,6 +260,18 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
+padding-bottom: 8px;
+text-align: center;
+margin-top: 32px;
+
+}
+.main-list3{
+    color: var(--primary-text-color);
+    display: flex;
+    padding-top: 72px;
+    gap: 24px;
+    padding-bottom: 120px;
+    
 }
 
 .main-after-title {
@@ -210,17 +279,27 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+text-align: center;
+margin-top: 8px;
+padding-bottom: 32px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px
 }
 /*-------------------------Footer-----------------*/
 .footer{
     background: var(--title-text-color);
+    padding-top: 100px;
 }
 .footer-after-title {
 
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color:var(--color-after-titet-footer);
+box-sizing: border-box;
+max-width: 264px;
+margin-left: 156px;
+padding-bottom: 100px;
+
 }
 .web-footer{
     font-family: 'Raleway';
@@ -231,6 +310,8 @@ color:var(--color-after-titet-footer);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo-web-btn);
+    padding-left: 156px;
+    padding-bottom: 16px;
 }
 .link-logo-footer {
     font-family: 'Raleway';

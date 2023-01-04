@@ -285,6 +285,8 @@ border-radius: 0px 0px 4px 4px
 .footer{
     background: var(--title-text-color);
     padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
 }
 .footer-after-title {
 
@@ -293,8 +295,7 @@ line-height: 1.5;
 color:var(--color-after-titet-footer);
 box-sizing: border-box;
 max-width: 264px;
-margin-left: 156px;
-padding-bottom: 100px;
+
 
 }
 .web-footer{
@@ -306,7 +307,6 @@ padding-bottom: 100px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-logo-web-btn);
-    padding-left: 156px;
     padding-bottom: 16px;
 }
 .link-logo-footer {

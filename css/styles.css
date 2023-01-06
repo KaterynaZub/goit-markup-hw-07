@@ -190,6 +190,7 @@ img {
   padding-left: 16px;
   background: var(--color-white-ffff);
   border: 1px solid var(--color-after-titet-footer);
+border-top: transparent;
 }
 .main-title {
   font-size: 20px;
@@ -203,10 +204,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--scond-color-text);
-}
-.card {
-  border: 1px solid #e7e9fc;
-  border-top: transparent;
 }
 
 /*---------footer-------*/

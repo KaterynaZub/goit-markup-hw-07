@@ -207,7 +207,7 @@ padding: 16px 32px 16px 32px;
 .main-list {
     color: var(--primary-text-color);
     display: flex;
-    margin-right: 24px;
+    gap: 24px;
 }
 .main-item2 {
 box-sizing: border-box;
@@ -215,8 +215,7 @@ font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 color: var(--primary-text-color);
-margin-right: auto;
-margin-left: auto;
+
 }
 .main-title2 {
     font-weight: 500;

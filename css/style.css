@@ -151,8 +151,12 @@ padding-bottom: 24px;
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    height: 600px;
+    max-width: 1440px;
+    background-image:linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office1.jpg);
+    margin-left: auto;
+    margin-right: auto;
     
-
 }
 .main-content-section2_1 { 
 background: var(--color-white-ffff);

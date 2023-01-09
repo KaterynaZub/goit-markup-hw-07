@@ -209,6 +209,11 @@ padding: 16px 32px 16px 32px;
 .main-link:focus{
     background-color: var(--color-hover-focus);
 }
+.pictures{
+    width: 240px;
+    height: 112px;
+    
+}
 .main-list {
     color: var(--primary-text-color);
     display: flex;

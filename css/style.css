@@ -295,8 +295,27 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--primary-text-color);
-padding-bottom: 32px;
+margin-bottom: 8px;
 }
+.social_link {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    gap: 24px;
+}
+
+.social_link_item {
+    width: 40px;
+    height: 40px;
+}
+.soc_link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-logo-web-btn);
+    border-radius: 50%;
+    display: block;
+}
+
 /*-------------------------Footer-----------------*/
 .footer{
     background: var(--title-text-color);

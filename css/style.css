@@ -6,6 +6,7 @@
     --color-white-ffff: #ffffff;
     --color-hover-focus: #404bbf;
     --color-after-titet-footer: #e7e9fc;
+    --color-hover-focus-soc:#31d0aa;
 }
 
 p,
@@ -436,7 +437,7 @@ img {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #ffffff;
+    color: var(--color-white-ffff);
   }
   
   .ft-soc-items-list {
@@ -458,5 +459,5 @@ img {
   
   .ft-soc-item-link:hover,
   .ft-soc-item-link:focus {
-    background: #31d0aa;
+    background: var(--color-hover-focus-soc);
   }

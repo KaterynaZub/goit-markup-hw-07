@@ -353,7 +353,7 @@ img {
   }
   
   .soc-item-link:hover,
-  .ft-soc-item-link:focus {
+  .soc-soc-item-link:focus {
     background-color: var(--color-hover-focus);
   }
   

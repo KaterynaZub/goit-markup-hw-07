@@ -126,6 +126,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color-text);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -142,6 +145,9 @@ img {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--scond-color-text);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -152,6 +158,9 @@ img {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--scond-color-text);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -187,6 +196,9 @@ img {
   border: transparent;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -246,6 +258,7 @@ display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 }
 .card-projects:hover .overlay,
 .card-projects:focus .overlay {
@@ -336,6 +349,9 @@ display: block;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ft-soc-item-link:hover,

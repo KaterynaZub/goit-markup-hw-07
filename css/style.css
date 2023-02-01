@@ -67,12 +67,11 @@ img {
   opacity: 1;
 }
 
-
-.current >.header-link{
+.current > .header-link {
   color: var(--color-hover-focus);
 }
 .header-item::after {
-  content: '';
+  content: "";
   background-color: var(--color-hover-focus);
   border-radius: 2px;
   position: absolute;
@@ -83,7 +82,8 @@ img {
   left: 0;
   opacity: 0;
   transform: scaleX(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item:hover::after {
@@ -133,7 +133,16 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.header-link-1 {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-hover-focus);
+  /*------Анімація----*/
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .header-link:hover,
 .header-link:focus {
   color: var(--color-hover-focus);
@@ -173,7 +182,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   position: relative;
-  
 }
 .header-item-contact {
   font-size: 16px;
@@ -547,8 +555,8 @@ img {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {

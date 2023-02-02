@@ -595,6 +595,10 @@ img {
   background-color: var(--color-hover-focus);
   fill: var(--color-white-ffff);
 }
+.client-form{
+  margin-left: 24px;
+  margin-right: 24px;
+}
 .leave-contacts{
 margin-top: 24px;
 font-family: 'Roboto';

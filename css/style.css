@@ -674,19 +674,18 @@ color: #8E8F99;
 .modal-button:hover,
 .modal-button:focus {
   color: #ffffff;
-  background: var(--color-hover-focus-soc);
+  background: var(--color-hover-focus);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.check-text::before {
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 1px solid black;
-  border-radius: 1px;
-  display: block;
-  margin-right: 8px;
+.input-check{
+position: absolute;
+width: 16px;
+height: 16px;
+background: #404BBF;
+border: 1.25px solid #404BBF;
+border-radius: 2px;
 }
 
 .check-text {
@@ -727,13 +726,7 @@ color: #8E8F99;
   color: #4d5ae5;
   margin-left: 2px;
 }
-.input-check:checked + .check-text::before {
-  background-image: url();
-  border: none;
-  background-color: darkblue;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 .input-text {
   display: inline-block;
   margin-bottom: 4px;

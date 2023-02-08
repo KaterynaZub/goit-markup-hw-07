@@ -488,8 +488,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-after-titet-footer);
-  box-sizing: border-box;
-  max-width: 264px;
+  width: 264px;
   margin-top: 16px;
 }
 
@@ -547,7 +546,6 @@ img {
   background: var(--color-hover-focus-soc);
 }
 .subscribe-footer {
-  margin-left: 80px;
 }
 /* Введення ----Subscribe----- */
 .subscribe-input {
@@ -556,6 +554,7 @@ img {
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  margin-top: 16px;
   background-color: transparent;
   padding-left: 16px;
   font-family: "Roboto";
@@ -597,6 +596,7 @@ img {
   width: 165px;
   height: 40px;
   padding: 8px 24px;
+  margin-top: 16px;
   margin-left: 24px;
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
@@ -748,6 +748,7 @@ color: #8E8F99;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  margin-top: 24px;
   background: var(--color-logo-web-btn);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -765,13 +766,14 @@ color: #8E8F99;
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.input-check{
+.check-text::before{
 position: absolute;
 width: 16px;
 height: 16px;
-background: #404BBF;
+background:;
 border: 1.25px solid var(--color-hover-focus);
 border-radius: 2px;
+margin-top: 16px;
 }
 
 .check-text {
@@ -782,9 +784,8 @@ border-radius: 2px;
   line-height: 16px;
   letter-spacing: 0.04em;
   color: #757575;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 24px;
+  margin-top: 16px;
+  margin-left: 8px;
 }
 .textarea{
   font-style: normal;

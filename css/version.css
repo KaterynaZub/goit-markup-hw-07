@@ -30,6 +30,13 @@
   .menu-open-icon{
   stroke: var(--title-text-color)
 } 
+.picture-icon{
+  display: none;
+}
+.main-list2_2 {
+  color: var(--primary-text-color);
+ 
+}
 }
 /* Виключення*/
 @media screen and (max-width: 768px) {
@@ -41,6 +48,21 @@
     .mob-menu-open-btn{
       display: none;
     }
+    .picture-icon {
+      background-color: var(--color-logo-footer-text-title);
+      border-radius: 4px;
+      height: 112px;
+      width: 264px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .picture {
+      width: 64px;
+      height: 64px;
+    }
+    
     }Ї
 /*----------------tablet------------------*/
 
@@ -51,11 +73,51 @@
   .container.mini-container {
     max-width: 582px;
   }
+  .picture-icon {
+    background-color: var(--color-logo-footer-text-title);
+    border-radius: 4px;
+    height: 112px;
+    width: 264px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture {
+    width: 64px;
+    height: 64px;
+  }
+  .main-list2_2 {
+    color: var(--primary-text-color);
+    display: flex;
+    margin-top: 72px;
+    gap: 24px;
+  }
   }
 /*---------------desktop----------------*/
 @media screen and (min-width: 1200px) {
   .container{
     width: 1158px;
+  }
+  .picture-icon {
+    background-color: var(--color-logo-footer-text-title);
+    border-radius: 4px;
+    height: 112px;
+    width: 264px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture {
+    width: 64px;
+    height: 64px;
+  }
+  .main-list2_2 {
+    color: var(--primary-text-color);
+    display: flex;
+    margin-top: 72px;
+    gap: 24px;
   }
  
 }
